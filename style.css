@@ -32,6 +32,7 @@ header .bl-logo-header {
   margin-left: 40px;
 }
 
+.nav-list-footer,
 .nav-list {
   padding-left: 0px;
   list-style: none;
@@ -145,12 +146,17 @@ section .bl-shoots-ticket-element button {
   color: whitesmoke;
   text-align: center;
   background-color: rgb(31, 31, 31);
-  padding: 30px 10px 50px;
+  padding: 0px 10px 50px;
+}
+.nav-list-footer {
+  flex-wrap: wrap;
+}
+.nav-list-footer li {
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin: 15px auto auto 25px;
 }
 
-footer .logo-image img {
-  width: 250px;
-}
 footer .bl-footer-end-page-info {
   font-size: 14px;
   letter-spacing: 1px;
@@ -189,7 +195,7 @@ i {
     top: 0.1vh;
     right: 0;
     height: 87vh;
-    width: 60vw;
+    width: 80vw;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -235,6 +241,18 @@ i {
   }
   section .bl-shoots-ticket-element img {
     width: fit-content;
+  }
+  .nav-list-footer li {
+    font-size: 17px;
+    letter-spacing: 4px;
+    margin: 15px auto auto 20px;
+  }
+  footer .bl-info-copy {
+    display: none;
+  }
+  .bl-social-media {
+    text-align: center;
+    width: 90vw;
   }
 }
 .nav-list.active {

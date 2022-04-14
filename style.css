@@ -244,7 +244,7 @@ i {
   }
   .nav-list-footer li {
     font-size: 17px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     margin: 15px auto auto 20px;
   }
   footer .bl-info-copy {
@@ -253,6 +253,9 @@ i {
   .bl-social-media {
     text-align: center;
     width: 90vw;
+  }
+  .footer {
+    padding: 0px 10px 30px;
   }
 }
 .nav-list.active {

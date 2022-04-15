@@ -6,13 +6,14 @@ html,
 body {
   position: relative;
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
   background: rgb(244, 241, 233);
 }
 header {
-  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/622/original/averie-woodard-4nulm-JUYFo-unsplash.jpg?1649703413")
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/884/original/SLIDES.png?1650039462")
     no-repeat center center;
   background-size: cover;
   height: 100vh;
@@ -21,7 +22,9 @@ header .bl-logo-header {
   visibility: hidden;
   margin-top: 20px;
 }
-
+header .bl-logo-nav h1 {
+  font-family: "Amoitar", sans-serif;
+}
 .mobile-menu {
   display: none;
   cursor: pointer;
@@ -66,6 +69,7 @@ section .bl-box-bio-element {
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: "Glacial Indifference", sans-serif;
 }
 
 section .bl-two-box p {
@@ -73,6 +77,7 @@ section .bl-two-box p {
 }
 section .bl-two-box h2,
 h3 {
+  font-family: "Amoitar", sans-serif;
   text-align: left;
 }
 
@@ -96,6 +101,7 @@ section .bl-btn-contact-me button {
   border-left: none;
   border-bottom-left-radius: 28px;
   border-top-left-radius: 28px;
+  font-family: "Intro Demo", sans-serif;
 }
 section .bl-page-middle {
   margin: 60px 60px 130px;
@@ -123,6 +129,7 @@ section .bl-shoots-title {
   margin-left: 50px;
   letter-spacing: 7px;
   line-height: 24px;
+  font-family: "Intro Demo", sans-serif;
 }
 section .bl-shoots-ticket-element {
   margin: 60px 30px 60px;
@@ -146,10 +153,11 @@ section .bl-shoots-ticket-element button {
   color: whitesmoke;
   text-align: center;
   background-color: rgb(31, 31, 31);
-  padding: 0px 10px 50px;
+  padding: 0px 10px 5px;
 }
 .nav-list-footer {
   flex-wrap: wrap;
+  margin: 40px 0 50px;
 }
 .nav-list-footer li {
   font-size: 18px;
@@ -209,6 +217,7 @@ i {
   .bl-logo-nav {
     display: none;
   }
+
   .mobile-menu {
     display: block;
     margin-left: auto;
@@ -250,9 +259,12 @@ i {
   footer .bl-info-copy {
     display: none;
   }
+  footer .bl-footer-end-page-info {
+    flex-direction: column-reverse;
+  }
   .bl-social-media {
     text-align: center;
-    width: 90vw;
+    margin-top: 30px;
   }
   .footer {
     padding: 0px 10px 30px;

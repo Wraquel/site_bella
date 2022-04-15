@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background: rgb(244, 241, 233);
+  background: FCF8F5;
 }
 header {
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/884/original/SLIDES.png?1650039462")
@@ -33,6 +33,7 @@ header .bl-logo-nav h1 {
 .nav-list li {
   letter-spacing: 5px;
   margin-left: 40px;
+  font-family: "Intro Demo", sans-serif;
 }
 
 .nav-list-footer,
@@ -41,12 +42,13 @@ header .bl-logo-nav h1 {
   list-style: none;
   display: flex;
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 18px;
+  align-items: center;
 }
 .mobile-menu div {
   width: 32px;
   height: 2px;
-  background: #fff;
+  background: #fcf8f5;
   margin: 8px;
   transition: 0.3s;
 }
@@ -60,7 +62,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #fcf8f5;
 }
 
 section .bl-box-bio-element {
@@ -74,9 +76,13 @@ section .bl-box-bio-element {
 
 section .bl-two-box p {
   text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 28px;
 }
 section .bl-two-box h2,
 h3 {
+  color: #1b1616;
   font-family: "Amoitar", sans-serif;
   text-align: left;
 }
@@ -109,7 +115,7 @@ section .bl-page-middle {
   justify-content: center;
 }
 section .bl-page-middle button {
-  background-color: bisque;
+  background-color: #848482;
   border: none;
   padding: 0px 10px;
   flex-shrink: 0;
@@ -150,17 +156,18 @@ section .bl-shoots-ticket-element button {
 }
 
 .footer {
-  color: whitesmoke;
+  color: #fcf8f5;
   text-align: center;
-  background-color: rgb(31, 31, 31);
+  background-color: #1b1616;
   padding: 0px 10px 5px;
 }
 .nav-list-footer {
   flex-wrap: wrap;
   margin: 40px 0 50px;
+  font-family: "Intro Demo", sans-serif;
 }
 .nav-list-footer li {
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 5px;
   margin: 15px auto auto 25px;
 }
@@ -188,7 +195,7 @@ footer li {
 }
 a,
 i {
-  color: whitesmoke;
+  color: #fcf8f5;
 }
 i {
   font-size: 17px;
@@ -208,7 +215,7 @@ i {
     align-items: center;
     justify-content: space-around;
     transform: translateX(100%);
-    background: red;
+    background-color: #1b1616;
   }
   .nav-list li {
     margin-left: 0;
@@ -245,9 +252,7 @@ i {
     text-align: center;
     right: 0;
   }
-  section .bl-btn-contact-me button {
-    background-color: rgb(208, 61, 2);
-  }
+
   section .bl-shoots-ticket-element img {
     width: fit-content;
   }

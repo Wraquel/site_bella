@@ -2,14 +2,13 @@
   margin: 0;
   padding: 0;
 }
-html,
+
 body {
   position: relative;
   overflow-x: hidden;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
   background: #fcf8f5;
 }
 header {

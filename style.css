@@ -81,8 +81,8 @@ section .bl-two-box p {
 }
 section .bl-two-box h2 {
   color: #1b1616;
-  font-weight: bold;
   line-height: 43px;
+  font-family: "Amoitar", sans-serif;
 }
 
 section .name-bl p {

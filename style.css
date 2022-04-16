@@ -22,9 +22,7 @@ header .bl-logo-header {
   visibility: hidden;
   margin-top: 20px;
 }
-header .bl-logo-nav h1 {
-  font-family: "Amoitar", sans-serif;
-}
+
 .mobile-menu {
   display: none;
   cursor: pointer;
@@ -34,7 +32,6 @@ header .bl-logo-nav h1 {
   text-align: center;
   letter-spacing: 4px;
   margin-left: 20px;
-  font-family: "Intro Demo", sans-serif;
 }
 
 .nav-list-footer,
@@ -74,19 +71,17 @@ section .bl-box-bio-element {
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: "Glacial Indifference", sans-serif;
 }
 
 section .bl-two-box p {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 2px;
-  line-height: 28px;
+  line-height: 25px;
 }
-section .bl-two-box h3 {
+section .bl-two-box h2 {
   color: #1b1616;
-  font-family: "Amoitar", sans-serif;
-  text-align: left;
+  font-weight: bold;
   line-height: 43px;
 }
 
@@ -110,7 +105,6 @@ section .bl-btn-contact-me button {
   border-left: none;
   border-bottom-left-radius: 28px;
   border-top-left-radius: 28px;
-  font-family: "Intro Demo", sans-serif;
 }
 section .bl-page-middle {
   margin: 60px 60px 130px;
@@ -143,7 +137,6 @@ section .bl-shoots-title {
   margin-left: 50px;
   letter-spacing: 7px;
   line-height: 24px;
-  font-family: "Intro Demo", sans-serif;
 }
 section .bl-shoots-ticket-element {
   margin: 50px auto 100px;
@@ -170,7 +163,6 @@ section .bl-shoots-ticket-element button {
 .nav-list-footer {
   flex-wrap: wrap;
   margin: 40px 0 50px;
-  font-family: "Intro Demo", sans-serif;
 }
 .nav-list-footer li {
   text-align: center;

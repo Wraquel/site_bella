@@ -6,6 +6,7 @@
 body {
   position: relative;
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -257,8 +258,6 @@ i {
     right: 0;
   }
 
-  section .bl-shoots-ticket-element img {
-  }
   .nav-list-footer li {
     font-size: 17px;
     letter-spacing: 3px;

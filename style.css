@@ -206,6 +206,9 @@ i {
 .nav-list-footer a:hover {
   color: #fcf8f5;
 }
+button:link {
+  color: #1b1616;
+}
 @media (max-width: 992px) {
   header .bl-logo-header {
     visibility: visible;

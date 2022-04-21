@@ -224,7 +224,7 @@ button:link {
 @media (max-width: 768px) {
   header .bl-logo-header {
     visibility: visible;
-    border: 1px red solid;
+    
     align-self: center;
   }
   header {

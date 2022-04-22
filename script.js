@@ -1,17 +1,3 @@
-let hero = document.querySelector("main");
-let image = [
-  "url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/009/original/SLIDES-2.png?1650181019)",
-  "url(http://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/884/original/SLIDES.png?1650039462)",
-];
-setInterval(function back() {
-  let bg = image[Math.floor(Math.random() * image.length)];
-  let changeBackgrd =
-    "<main class='hero' style=' background-image: " + bg + ";'>";
-  hero.innerHTML = changeBackgrd;
-  console.log(bg);
-}, 2000);
-//background: no-repeat center center;
-//  background-size: cover;
 
 let slideIndex = 1;
 showDivs(slideIndex);

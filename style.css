@@ -17,7 +17,7 @@ body {
 /*  Hero style     */
 header {
   transition: 2s ease-in-out;
-  background: url("http://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/884/original/SLIDES.png?1650039462") no-repeat center center;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/884/original/SLIDES.png?1650039462") no-repeat center center;
   background-size: cover;
   height: 100vh;
  
